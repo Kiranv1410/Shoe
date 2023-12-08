@@ -12,7 +12,46 @@
         
 </head>
 
-<body>
+<style>
+    #about{
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 00px;
+    }
+
+    #review{
+        margin-top: 20px;
+    }
+
+    #mainpage .col{
+        height: 500px;
+    }
+
+    .rating {
+            display: inline-block;
+            font-size: 24px;
+        }
+
+        .rating label {
+            color: #ffd700;
+            /* Set the star color to yellow */
+            cursor: pointer;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label:hover,
+        .rating label:hover~label,
+        .rating input:checked~label {
+            color: #ffcc00;
+            /* Change the star color on hover and for checked stars */
+        }
+    
+</style>
+
+<body id="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <a class="navbar-brand fs-3 ms-5" href="#">SPORT SHOES</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -22,19 +61,19 @@
         <div class="collapse navbar-collapse right" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                    <a class="nav-link mx-4 fs-4 text-black" href="#">Home</a>
+                    <a class="nav-link mx-4 fs-4 text-black" href="#body">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-4 fs-4" href="#">About Us</a>
+                    <a class="nav-link mx-4 fs-4" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-4 fs-4" href="#">Contact</a>
+                    <a class="nav-link mx-4 fs-4" href="#footer">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-4 fs-4" href="#">Reviews</a>
+                    <a class="nav-link mx-4 fs-4" href="#review">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-4 fs-4" href="#">Login</a>
+                    <a class="nav-link mx-4 fs-4" href="login.html">Login</a>
                 </li>
             </ul>
         </div>
@@ -67,7 +106,7 @@
                     style="width: 40px; height: 700px;" class="d-block w-100" alt="...">
             </div>
 
-            <div class="carousel-item">
+             <div class="carousel-item">
                 <img src="https://images.pexels.com/photos/5069227/pexels-photo-5069227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     style="width: 40px; height: 700px;" class="d-block w-100" alt="...">
             </div>
@@ -89,16 +128,260 @@
         </button>
     </div>
 
-    
+    <div class="container" id="about" style="background-color: rgb(130, 132, 238);">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.webp?b=1&s=170667a&w=0&k=20&c=liUSgX6SafJ7HWvefFqR9-pnf3KuH6v1lwQ6iEpePWc="
+                    style="width: 300px; margin: 20px;" alt="Smartwatch Image" class="img-fluid">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D"
+                    style="width: 300px; margin: 20px; padding-bottom: 30px;" alt="Smartwatch Image" class="img-fluid">
+                <br>
+                <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg?cs=srgb&dl=pexels-web-donut-19090.jpg&fm=jpg"
+                    style="width: 300px;  margin: 20px;" alt="Smartwatch Image" class="img-fluid">
 
-    
-        
-
-
-            
-            
-
+            </div>
+    <div id="About" class="col-md-6">
+        <h2>About Our Products</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum placeat magni praesentium totam sunt. Rerum, architecto? Esse quia ex beatae accusantium eveniet voluptatem sit aliquam architecto, eaque, velit voluptatibus deserunt fugiat omnis, aspernatur consequuntur. Omnis quasi sit iure quaerat quam, est optio magnam esse doloribus totam quidem. Molestias earum, impedit vero dolorem cumque facere itaque aliquam pariatur perspiciatis repudiandae aut expedita debitis vel tempore non, hic iste fugiat corporis reiciendis quae atque iusto velit laboriosam molestiae. Hic deserunt, sequi optio numquam asperiores quod ex assumenda dignissimos corrupti fugiat reprehenderit tempore sapiente ea deleniti excepturi eos magni. Animi qui alias sequi.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A exercitationem officia vero ratione! Porro hic excepturi harum repellat omnis dignissimos quae perspiciatis in ex distinctio laudantium est sunt cum nemo tempora quisquam adipisci, impedit eaque possimus! Laboriosam dolores veritatis eligendi nesciunt excepturi ea optio atque dolor! Amet eum temporibus facilis quis culpa hic consectetur beatae, iusto numquam eius accusamus sed iste exercitationem provident! At repudiandae enim aliquid culpa provident explicabo dolore tenetur temporibus illo officiis. Deleniti incidunt odio dolorem exercitationem ipsum quibusdam, iusto quidem culpa consequatur consectetur enim eius nisi! Nesciunt, assumenda incidunt cupiditate amet maxime necessitatibus qui mollitia voluptate nostrum repellendus similique laudantium itaque blanditiis, architecto, consequatur ipsa perspiciatis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore molestias assumenda saepe non expedita ratione dicta, quam accusantium ducimus corporis!
+        </p>
     </div>
+    </div>
+    </div>
+    <div class="" id="review">
+        <h1 style="text-align: center;"><strong>PRODUCTS REVIEW</strong></h1>
+    <div id="mainpage" class="row gap-5 justify-content-center" style=" background-color: rgb(20, 190, 220);">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAwGplKRrD7s-nNRe_AyZT9hMKnhf8Wjts2g&usqp=CAU"
+                        style="height:200px; width: auto;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NIKE</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nemo autem quia molestias eaque nihil tenetur, possimus provident odio eius, numquam modi dolore? Hic, at?</p>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5">&#9733;</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">&#9733;</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">&#9733;</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2">&#9733;</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1">&#9733;</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        style="height:200px; width: auto;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ADIDAS</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quisquam beatae nisi sapiente quo provident tempora consectetur atque hic, ex eveniet pariatur soluta, optio modi?</p>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5">&#9733;</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">&#9733;</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">&#9733;</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2">&#9733;</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        style="height:200px; width: auto;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">WOODLAND</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos odit sunt sed tempore obcaecati iusto tenetur voluptas inventore eum blanditiis ex et, quis ab dignissimos.</p>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5">&#9733;</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">&#9733;</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">&#9733;</label>
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2">&#9733;</label>
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1">&#9733;</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        style="height:200px; width: auto;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PUMA</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto adipisci mollitia fugit cum quisquam quis, repellat minima eos accusantium consequuntur sed nostrum tempore incidunt nisi.</p>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5">&#9733;</label>
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">&#9733;</label>
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">&#9733;</label>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          id="footer"
+          >
+    
+    <div class="container p-4 pb-0">
+      
+      <section class="">
+       
+        <div class="row">
+          
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              AJIO
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias cum eum temporibus laborum natus. Exercitationem reprehenderit molestiae aut quibusdam repellat.
+            </p>
+          </div>
+          
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">SPORTS</a>
+            </p>
+            <p>
+              <a class="text-white">SNEAKERS</a>
+            </p>
+            <p>
+              <a class="text-white">FORMAL SHOES</a>
+            </p>
+            <p>
+              <a class="text-white">CASUAL SHOES</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a class="text-white">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2023 Copyright:
+              <a class="text-white" href="#"
+                 >AJIO.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+
+           
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
